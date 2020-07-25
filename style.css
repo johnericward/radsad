@@ -1,0 +1,16 @@
+.siteTitle {
+    color: rgb(158, 158, 226);
+    margin: 0 auto;
+    text-align: center;
+    padding: 40% 0 0 0;
+    font-size: 300%;
+}
+
+.siteSubTitle {
+    color: rgb(207, 158, 226);
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 0;
+    font-style: italic;
+}
+
