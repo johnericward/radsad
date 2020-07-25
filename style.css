@@ -1,10 +1,41 @@
+/* .siteTItleOuter {
+    text-align: center;
+    text-decoration: none;
+} */
+
+/* .siteTItleOuter:hover {
+    text-align: center;
+    text-decoration: none;
+} */
 .siteTitle {
     color: rgb(158, 158, 226);
-    margin: 0 auto;
     text-align: center;
-    padding: 40% 0 0 0;
+    margin: 40% 0 0 0;
+    padding: 40% auto 0 auto;
     font-size: 300%;
+    /* display: inline-block; */
+    text-decoration: none;
 }
+
+/* .siteTitleOuter:link {
+    color: rgb(132, 132, 189);
+    text-decoration: none;
+}
+
+.siteTitleOuter:visited {
+    color: rgb(132, 132, 189);
+    text-decoration: none;
+} */
+
+.siteTitleOuter:hover {
+    color: rgb(132, 132, 189);
+    text-decoration: none;
+}
+
+/* .siteTitleOuter:active {
+    color: rgb(132, 132, 189);
+    text-decoration: none;
+} */
 
 .siteSubTitle {
     color: rgb(207, 158, 226);
