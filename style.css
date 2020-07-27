@@ -1,41 +1,32 @@
-/* .siteTItleOuter {
-    text-align: center;
-    text-decoration: none;
-} */
+/* body {
 
-/* .siteTItleOuter:hover {
-    text-align: center;
-    text-decoration: none;
+    background-image: url("assets/images/radSadDiner.jpg");  
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 } */
 .siteTitle {
     color: rgb(158, 158, 226);
+    /* color: white; */
     text-align: center;
-    margin: 40% 0 0 0;
+    margin: 30vh 0 0 0;
     padding: 40% auto 0 auto;
     font-size: 300%;
     /* display: inline-block; */
     text-decoration: none;
+    /* font-weight: 500; */
+    z-index:2;
+    
 }
-
-/* .siteTitleOuter:link {
-    color: rgb(132, 132, 189);
-    text-decoration: none;
-}
-
-.siteTitleOuter:visited {
-    color: rgb(132, 132, 189);
-    text-decoration: none;
-} */
 
 .siteTitleOuter:hover {
     color: rgb(132, 132, 189);
     text-decoration: none;
+    text-shadow: 10px 10px 25px #c0c0c0;
+    z-index:2;
 }
-
-/* .siteTitleOuter:active {
-    color: rgb(132, 132, 189);
-    text-decoration: none;
-} */
 
 .siteSubTitle {
     color: rgb(207, 158, 226);
@@ -43,5 +34,12 @@
     text-align: center;
     padding: 5% 0;
     font-style: italic;
+    font-weight: 500;
+    z-index:2;
 }
+
+/* .backgroundPic {
+z-index: 1;
+display: contents;
+} */
 
