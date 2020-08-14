@@ -1,34 +1,38 @@
-/* body {
 
-    background-image: url("assets/images/radSadDiner.jpg");  
-    background-position: center top; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-} */
 .siteTitle {
     color: rgb(158, 158, 226);
-    /* color: white; */
+   
     text-align: center;
-    margin: 30vh 0 0 0;
-    padding: 40% auto 0 auto;
-    font-size: 300%;
-    /* display: inline-block; */
+    align-content: center;
+    margin: 7vh auto 0 auto;
+    padding: 0 5%;
+    font-size: 2vw;
+    
     text-decoration: none;
-    /* font-weight: 500; */
-    z-index:2;
+   
+    /* z-index:2; */
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    
+    
     
 }
+
+
+
+
 
 .siteTitleOuter:hover {
     color: rgb(132, 132, 189);
     text-decoration: none;
     text-shadow: 10px 10px 25px #c0c0c0;
     z-index:2;
+    text-align: center;
+    align-content: center;
+    margin: 2%;
 }
 
-.siteSubTitle {
+/* .siteSubTitle {
     color: rgb(207, 158, 226);
     margin: 0 auto;
     text-align: center;
@@ -36,10 +40,182 @@
     font-style: italic;
     font-weight: 500;
     z-index:2;
+} */
+
+
+
+/* ================NAV================= */
+.nav {
+    text-align: center;
+    align-content: center;
+    font-size: 90%;
+    margin: 0 15%;
+    color: rgb(207, 158, 226);
+    /* transform: scale(1, .9); */
+    /* color: rgb(207, 158, 226); */
+   
 }
+.navSub {
+    /* transform: scale(1, .9); */
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    }
+ .navSub:link {
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+  }
+  
+  .navSub:visited {
+    color: none;
+  }
+  
+  .navSub:hover {
+    color: rgb(190, 190, 190);
+    /* text-shadow: 1px 1px 8px rgba(200,200,200,10); */
+  }
+  
+  .navSub:active {
+    color: rgb(190, 190, 190);
+    
+  }
+
+  .navActivePage {
+      color: rgb(190, 190, 190);
+  }
+
+  /* ==========={ BS nav BS }=========== */
+  .navbar {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .bg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-light {
+      background-color: none;
+      text-align: center;
+    align-content: center;  
+  }
+  .navbar-expand-lg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-nav {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+  }
+.navbar-nav:hover {
+    color: rgb(190, 190, 190);
+}
+  .nav-item {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+  }
+
+  .nav-item:hover {
+    color: rgb(190, 190, 190);
+  }
+  .nav-link {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+  }
+  .navbar-toggler {
+    text-align: center;
+    align-content: center;
+  }
+  .navbar-toggler-icon {
+    text-align: center;
+    align-content: center;
+    
+  }
+/* ============================={ End Head of Page }================================ */
+
+
+
+
+
+
 
 /* .backgroundPic {
 z-index: 1;
 display: contents;
 } */
 
+.buildContent {
+    margin: 2% 4%;
+    text-align: center;
+    align-content: center;
+}
+
+.build {
+    width: 100%;
+    margin: 2% 0;
+}
+
+.topJumpContainer {
+  margin: 15% auto 20% auto;
+  text-align: center;
+  align-content: center;
+  font-size: 1vw;
+}
+.topJumpLink {
+  color: rgb(173, 173, 173);
+  text-decoration: none;
+}
+.topJumpLink:hover {
+  color: rgb(228, 228, 228);
+  text-decoration: none;
+}
+
+
+
+/* ========================{ Media Queries }======================================= */
+
+  /* PHONES */
+
+  @media screen and (max-width: 992px) {
+  
+    .siteTitle {
+        font-size: 6vw;
+    }
+    
+    .subTitle {
+      text-align: center;
+      font-size: 3vw;
+    }
+    
+    .build {
+        width: 95%;
+        margin: 2% 0;
+    }
+   
+    
+    .topJumpContainer {
+      margin: 15% auto 20% auto;
+      font-size: 3vw;
+    }
+  
+    
+    }
