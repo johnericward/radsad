@@ -252,7 +252,7 @@ display: contents;
     letter-spacing: 1px;
     color: rgb(207, 158, 226);
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 20% auto;
     text-align: center;
     align-content: center;
 }
