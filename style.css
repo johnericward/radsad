@@ -337,6 +337,8 @@ display: contents;
   align-content: center;
   color: rgb(9, 226, 197);
   font-size: 1vw;
+  font-family: 'Chewy', cursive;
+  /* font-weight: lighter; */
 }
 
 
@@ -444,6 +446,14 @@ display: contents;
         width: 80%;
         
     }
+
+    .successMessage {
+        
+        font-size: 4vw;
+
+        margin: 10% auto 20% auto;
+        
+      }
 
     
 
