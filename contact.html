@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Rad But Sad Club</title>
+
+
+    <!-- favicon -->
+    <!-- <link rel="icon" href="assets/images/favicon.gif" type="image/gif" sizes="16x16"> -->
+
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- bootstrap linked css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- sizing for mobile lil helper -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--  end of bootstrap css link -->
+    <!-- w3 css animations -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <!-- w3 end -->
+    <!-- jquery animations -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <!-- my linked css -->
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="row">
+        <!-- <div class="col-lg-3">
+
+        </div> -->
+        <div class="col-lg-2">
+            <!-- <img src="assets/images/radSadDiner.jpg" alt="placeHolderImgage" class="backgroundPic"> -->
+            <div class="sideBar">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#">
+                            <div class="siteTitle">RAD BUT SAD CLUB</div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <nav class="navbar navbar-expand-lg navbar-light bg flex-column">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+
+                            <ul class="nav flex-column">
+                                <li class="nav-item navSub">
+                                    <a class="nav-link navSub navActivePage" href="index.html"><span
+                                            class="navSub">gallery</span></a>
+                                </li>
+                                <li class="nav-item navSub">
+                                    <a class="nav-link navSub" href="#"><span
+                                            class="navSub navActivePage">contact</span></a>
+                                </li>
+                                <li class="nav-item navSub">
+                                    <a class="nav-link navSub" href="#"><span class="navSub">store</span></a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </nav>
+                <div class="row">
+                        <div class="col-lg-12">
+                            <a href="https://www.instagram.com/radbutsadclub/" class="instaHref" target="blank">
+                                <img src="assets/images/insta_color.png" class="instaLink">
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <!-- body of page (right 10/12ths of page) -->
+        <div class="col-lg-10">
+
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="leftContact">
+                        <img src="assets/images/gMoney.jpg" class="gMoney">
+                        <div class="aboutText">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus dolores unde repudiandae a? Ea, sint labore iusto dolor, consequatur distinctio sed dolorem amet possimus voluptatem praesentium dignissimos dolores corporis accusantium.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta a eaque veritatis voluptatem perspiciatis error dolor, eos quasi itaque reiciendis tenetur incidunt eveniet voluptatibus ad, aliquid distinctio velit modi repudiandae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo necessitatibus amet iste quod assumenda minima voluptatem ea sunt dolores blanditiis nihil delectus adipisci, itaque repellat velit fugit architecto at saepe!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="rightContact">
+                        <div class="contactFormTitle">
+                            Message ya girl!
+                        </div>
+                        <form class="contactEntry">
+                            <label for="name" class="formTitleTag">Name:</label>
+                            <br>
+                            <input type="text" class="formNameEntry" name="name" value="">
+
+                            <br>
+                            <br>
+
+                            <label for="email" class="formTitleTag">Email:</label>
+                            <br>
+                            <input type="text" class="formEmailEntry" name="email" value="">
+
+                            <br>
+                            <br>
+
+                            <label for="message" class="formTitleTag">Message:</label>
+                            <br>
+                            <textarea type="text" class="formMessageEntry" name="message" value=""></textarea>
+                            <br>
+                            <br>
+                            <div class="subBtnStyle"><button class="submit-btn">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6">
+                <div class="successMessage"></div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+<!-- ==================WEIRD OLD STUFF FOR FIREBASE================================================= -->
+
+    <!-- Firebase Core JavaScript Link -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
+
+    <!-- Specific Firebase products we want -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+
+     <!-- ==================================================================================== -->
+    <!-- bootstrap linked js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- my javascript -->
+    <script type="text/javascript" src="main.js"></script>
+    <!-- my game javascript -->
+    <script type="text/javascript" src="assets/spaceInvadersGame/game.js"></script>
+    <!-- processing js-->
+    <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script>
+</body>
+
+</html>
