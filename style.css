@@ -1,9 +1,10 @@
 html, body {
   width: 100%;
   
+
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 
@@ -31,7 +32,7 @@ html, body {
     text-decoration: none;
    
     /* z-index:2; */
-    font-family: 'Chewy', cursive;
+    font-family: 'Chewy', courier;
     letter-spacing: 1px;
     transition: font-size .4s;
     
@@ -383,6 +384,17 @@ display: contents;
 
   @media screen and (max-width: 992px) {
   
+
+    html, body {
+      width: 100%;
+      
+    
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+
 
 .sideBar {
     margin: 0 auto;
